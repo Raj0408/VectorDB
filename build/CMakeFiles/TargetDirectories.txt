@@ -1,0 +1,3 @@
+/media/data/Project/Personal Project/VectorDB/build/CMakeFiles/VectorDB.dir
+/media/data/Project/Personal Project/VectorDB/build/CMakeFiles/edit_cache.dir
+/media/data/Project/Personal Project/VectorDB/build/CMakeFiles/rebuild_cache.dir
