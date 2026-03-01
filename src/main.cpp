@@ -5,7 +5,7 @@
 
 int main() {
     const size_t dim = 128;
-    const size_t num_vectors = 1000;
+    const size_t num_vectors = 100;
 
     VectorStore store(dim);
 
