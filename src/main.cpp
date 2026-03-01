@@ -12,7 +12,7 @@ int main() {
     std::mt19937 gen(42);
     std::uniform_real_distribution<float> dist(0.0f, 1.0f);
 
-    // Insert random vectors
+  
     for (size_t i = 0; i < num_vectors; ++i) {
         std::vector<float> vec(dim);
         for (size_t j = 0; j < dim; ++j) {
