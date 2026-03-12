@@ -4,8 +4,9 @@
 #include <chrono>
 
 int main() {
-    const size_t dim = 128;
-    const size_t num_vectors = 100;
+    const size_t dim = 32;
+    const size_t num_vectors = 10000;
+
 
     VectorStore store(dim);
 
@@ -35,6 +36,10 @@ int main() {
     std::cout << "Search took: " << duration.count() << " ms\n";
     std::cout << "Top IDs:\n";
     for (auto id : results) {
+        std::cout << id << "\n";
+    }
+    std::cout << "Query \n";
+    for (auto id : query){
         std::cout << id << "\n";
     }
 

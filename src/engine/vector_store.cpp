@@ -57,7 +57,7 @@ std::vector<uint64_t> VectorStore::search_brute_force(const std::vector<float>& 
    {
       result.push_back(max_heap.top().first);
       max_heap.pop();
-      k++;
+      i++;
    }
    return result;
 }
