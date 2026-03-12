@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/VectorDB.dir/src/engine/vector_store.cpp.o CMakeFiles/VectorDB.dir/src/main.cpp.o -o VectorDB 
