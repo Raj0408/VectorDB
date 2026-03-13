@@ -31,7 +31,19 @@ int main() {
     auto results = store.search_brute_force(query, 5);
     auto end = std::chrono::high_resolution_clock::now();
 
+    
+
     std::chrono::duration<double, std::milli> duration = end - start;
+
+    std::cout << "Search took: " << duration.count() << " ms\n";
+
+    start = std::chrono::high_resolution_clock::now();
+    int node = store.greedy_search(query);
+    end = std::chrono::high_resolution_clock::now();
+
+    duration = end -start;
+
+    std::cout << "Greedy search result node index: " << node << std::endl;
 
     std::cout << "Search took: " << duration.count() << " ms\n";
     std::cout << "Top IDs:\n";
